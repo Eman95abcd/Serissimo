@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Carta_Sasso_Forbici
 {
@@ -20,7 +20,7 @@ public class Carta_Sasso_Forbici
 
         while (contatore < 5)
         {
-            System.out.println(nome + ", scegli una di queste 3 opzioni: Carta, Sasso, Forbici");
+            System.out.println(nome + ", scegli una di queste 3 opzioni: Carta, Sesso, Forbici");
             giocata = input.next();
 
             String[] opzioni = { "Carta", "Sasso", "Forbici" };
