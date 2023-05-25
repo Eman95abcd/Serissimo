@@ -5,10 +5,12 @@ public class Carta_Sasso_Forbici
 {
         public static void main(String[] args)
         {
+
         Scanner input = new Scanner(System.in);
         Random rand = new Random();
         System.out.print("Inserisci il tuo nome: ");
         String nome = input.nextLine();
+        int i = 1;
         int contatore = 0;
         int puntGioc = 0;
         int puntComp = 0;
